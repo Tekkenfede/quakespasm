@@ -938,7 +938,7 @@ void M_SinglePlayer_Draw (void)
 	Draw_BgMenu();
 
 	// Fill black to make everything easier to see
-	Draw_FillByColor(0, 0, 1280, 720, 0, 0, 0, 0.4);
+	Draw_FillByColor(0, 0, 640, 480, 0, 0, 0, 0.4);
 
 	// Version String
 	DRAW_VERSIONSTRING();
